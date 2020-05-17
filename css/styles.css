@@ -1,0 +1,137 @@
+body {
+  color:#40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem ;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.2rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom:10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.firstcontainer {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.pro{
+  text-decoration: underline;
+}
+.middle-container{
+  margin:100px 0;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+.vlog-pic{
+  width: 25%;
+  border-radius: 100%;
+  float:left;
+  margin-right: 30px;
+}
+  .gym-pic{
+    width: 25%;
+    border-radius: 100%;
+    float:right;
+    margin-left: 30px;
+}
+.saad{
+  border-radius: 100%;
+  width:13%;
+}
+.skill-row1{
+  width:50%;
+  margin:80px auto 100px auto;
+  text-align: left;
+}
+.skill-row2{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+}
+a{
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #eaf6f6;
+}
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.hr{
+  margin: auto 300rem;
+}
+.intro-text{
+  width:30%;
+  margin: auto;
+}
+p{
+  line-height: 2;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  width:4%;
+  color: #EAF6F6;
+  margin: 100px auto;
+}
+.contact-msg{
+  width:40%;
+  margin: 40px auto 60px;
+}
+.btn{
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+	padding:10px 20px 10px 20px;
+	text-decoration:none;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+	background-color:#11999e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
